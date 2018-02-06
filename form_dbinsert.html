@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Insert Customer</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<form action="form_insertcustomer.php" method="post" accept-charset="utf-8">
+		<select name="salutation">
+			<option value="Ms">Ms</option>
+			<option value="Ms">Mr</option>
+			<option value="Msr">Mrs</option>
+		</select>
+		<label>First Name</label>
+		<input type="text" name="firstname" value="" ><br>
+		<label>Last Name</label>
+		<input type="text" name="lastname" value="" ><br>
+		<label>Birthdate</label>
+		<input type="date" name="birthdate" value="" ><br>
+		<label>E-Mail</label>
+		<input type="email" name="email" value="" ><br>
+		<select name="phone_country">
+			<option value="1">+43</option>
+			<option value="2">+49</option>
+		</select>
+		<label>Phone Number</label>
+		<input type="text" name="phone" value="" ><br>
+		<label>Driver's License Number</label>
+		<input type="text" name="dl_num" value="" ><br>
+		<input type="submit" name="submit_customer" />
+	</form>
+	
+</body>
+</html>

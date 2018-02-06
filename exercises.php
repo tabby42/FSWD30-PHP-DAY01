@@ -106,6 +106,14 @@
 	<?php
 	$content = ob_get_clean();
 	echo $content;
+
+	function divide($numOne, $numTwo) {
+		return $numOne / $numTwo;
+	}
+	$number1 = 12;
+	$number2 = 3;
+	$result = divide($number1, $number2);
+	echo "<p>$result</p>";
 	?>
 	
 </body>
